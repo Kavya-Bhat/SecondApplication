@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+    <Button
+        android:id="@+id/Left"
+        android:layout_width="110dp"
+        android:layout_height="53dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintVertical_bias="0.699"
+
+        android:background="#F46C6C"
+        android:text="Match"
+        />
+
+    <Button
+        android:id="@+id/Right"
+        android:layout_width="103dp"
+        android:layout_height="56dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.773"
+        app:layout_constraintVertical_bias="0.699"
+
+        android:background="#06E1C7"
+        android:text="Next"
+        />
+
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/kaalia"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.301"
+        />
+
+
+    <TextView
+        android:id="@+id/textViewName1"
+        android:layout_width="215dp"
+        android:layout_height="68dp"
+        app:layout_constraintTop_toBottomOf="@id/image1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintVertical_bias="0.059"
+
+        android:fontFamily="cursive"
+        android:text ="@string/kaalia"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/Header_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        android:text="@string/find_your_match"
+        android:background="#f1f3de"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#ff0000"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

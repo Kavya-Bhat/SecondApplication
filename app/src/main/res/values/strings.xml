@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Second application</string>
+    <string name="choice_is_yours">choice is yours</string>
+    <string name="kamali">kamali</string>
+    <string name="machli">machli</string>
+    <string name="kokila">kokila</string>
+    <string name="megha">megha</string>
+    <string name="ink_machli">ink machli</string>
+    <string name="pink_machli">pink_machli</string>
+    <string name="kavya">Kavya</string>
+    <string name="meri_naam_kokila">meri naam kokila</string>
+    <string name="chutki">Chutki</string>
+    <string name="Chutki">Chutki</string>
+    <string name="meri_naam_chutki_hein_mein_dholakpur_se_hoon">meri naam Chutki hein, mein Dholakpur se hoon</string>
+    <string name="kaalia">Kaalia</string>
+    <string name="mein_bheem_ko_haraa_ke_rahunga">mein Bheem ko haraa ke rahunga</string>
+    <string name="find_your_match">Find your match</string>
+</resources>
